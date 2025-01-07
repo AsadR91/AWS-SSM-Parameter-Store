@@ -12,7 +12,7 @@ resource "aws_ssm_parameter" "passwords" {
  count  = length(var.passwords)
  name   = var.passwords[count.index].name
  value  = var.passwords[count.index].value
- type   = "SecureString"
+ type   = "String"
  key_id = "4f4d4c1d-a16f-4407-850d-c4584a6e2522"
 }
 

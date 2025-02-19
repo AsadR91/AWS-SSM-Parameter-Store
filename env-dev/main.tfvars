@@ -33,6 +33,6 @@ passwords = [
   { name = "dev.rds.db_user", value = "roboshop" },
   { name = "dev.rabbitmq.rabbitmq_appuser_password", value = "roboshop123" },
   { name = "dev.catalogue.mongo_url", value = "mongodb://roboshop:roboshop123456@docdb-dev.cluster-ch8equ8sovzm.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&tlsCAFile=global-bundle.pem&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
-  { name = "dev.user.mongo_url", value = "mongodb://roboshop:roboshop123456@docdb-dev.cluster-ch8equ8sovzm.us-east-1.docdb.amazonaws.com:27017/users?tls=true&tlsCAFile=global-bundle.pem&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
+  { name = "dev.user.mongo_url", value = "mongodb://roboshop:roboshop123456@docdb-dev.cluster-ch8equ8sovzm.us-east-1.docdb.amazonaws.com:27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
 ]
 #

@@ -6,7 +6,7 @@ parameters = [
   { name = "dev.frontend.payment_url", value = "http://payment-dev.aws.automation-dev.us:80/" },
   { name = "dev.catalogue.mongo_endpoint", value = "mongodb-dev.aws.automation-dev.us" },
   { name = "dev.catalogue.mongo", value = "DOCUMENTDB=true" },
-  { name = "dev.user.mongo", value = "DOCUMENTDB=true" },
+  { name = "dev.user.mongo", value = "MONGO=true" },
   { name = "dev.user.redis_host", value = "elasticache-dev-elasticache.iztcwo.ng.0001.use1.cache.amazonaws.com" },
   { name = "dev.user.mongo_endpoint", value = "mongodb-dev.aws.automation-dev.us" },
   { name = "dev.cart.redis_host", value = "elasticache-dev-elasticache.iztcwo.ng.0001.use1.cache.amazonaws.com" },

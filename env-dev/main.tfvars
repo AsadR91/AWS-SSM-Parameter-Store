@@ -35,3 +35,4 @@ passwords = [
   { name = "dev.catalogue.mongo_url", value = "mongodb://roboshop:123456@docdb-dev.cluster-ch8equ8sovzm.us-east-1.docdb.amazonaws.com:27017/?tls=true&tlsCAFile=global-bundle.pem&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
   { name = "dev.user.mongo_url", value = "mongodb://roboshop:123456@docdb-dev.cluster-ch8equ8sovzm.us-east-1.docdb.amazonaws.com:27017/?tls=true&tlsCAFile=global-bundle.pem&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
 ]
+#
